@@ -17,7 +17,7 @@ import java.lang.reflect.Method;
 @Aspect
 @Component
 public class CacheService {
-    Logger logger = LoggerFactory.getLogger("stdout");
+    Logger logger = LoggerFactory.getLogger(CacheService.class);
 
     @Pointcut(value = "@annotation(com.jpnie.demo.annotation.CacheRedis)")
     public void pointCut(){}
