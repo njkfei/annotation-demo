@@ -1,5 +1,6 @@
 # annotation-demo
-自定义注解处理器demo，基于aspectj搞
+自定义注解处理器demo，基于aspectj搞.
+使用自定义注解处理器，可以扩展各种个性化的业务。
 
 # 基本思路
 * 先定义annotation，作用范围为RUNTIME
